@@ -24,5 +24,5 @@ def getStuff(number, csv):
 
 for count in range(1, 1305):
         if(count == 404):
-           continue
+           continue #It wouldn't be xkcd, if it didn't have a joke with 404.
 	getStuff(count, writer)
